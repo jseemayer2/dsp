@@ -26,7 +26,14 @@ def CohenEffectSize(group1, group2):
 The code to solve the particular question is as follows:
 
 ```python
-codecodecode
+firsts = live[live.birthord == 1]
+others = live[live.birthord != 1]
+
+CohenEffectSize(firsts.totalwgt_lb, others.totalwgt_lb)
 ```
 
-From this result we can conclude that first-born's are not statistically significantly heavier or lighter than their younger siblings.
+```python
+-0.088672927072602
+```
+
+From this result we can conclude that first-born's are not statistically significantly heavier or lighter than their younger siblings, being less than 1/10th of 1 standard deviation different.
