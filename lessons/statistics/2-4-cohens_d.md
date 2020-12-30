@@ -23,7 +23,7 @@ def CohenEffectSize(group1, group2):
     return d
 ```
 
-The code to solve the particular question is as follows:
+The code to solve the particular question is as follows (inside the ThinkStats2 environment with appropriate dependencies):
 
 ```python
 firsts = live[live.birthord == 1]
