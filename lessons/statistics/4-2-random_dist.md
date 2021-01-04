@@ -16,7 +16,7 @@ pmf = thinkstats2.Pmf(random)
 thinkplot.Pmf(pmf, linewidth=0.1)
 thinkplot.Config(xlabel='Number', ylabel='PMF')
 ```
-INSERT GRAPH
+![Graph of random.random PMF](https://github.com/jseemayer2/dsp/blob/master/lessons/statistics/images/Ch4-1_RandomPMF.png)
 
 This illsutrates how the random number generator is good, but not perfect as shown by gaps and darker lines within the distribution,
 
@@ -24,6 +24,6 @@ This illsutrates how the random number generator is good, but not perfect as sho
 thinkplot.Cdf(thinkstats2.Cdf(random, label='random'))
 thinkplot.Config(xlabel='Number', ylabel='CDF')
 ```
-INSERT GRAPH
+![Graph of random.random CDF](https://github.com/jseemayer2/dsp/blob/master/lessons/statistics/images/Ch4-1_RandomPMF.png)
 
 This graphs also shows how the random number generator is good, but not perfect as shown by the slight deviations from the y=x line.
