@@ -24,6 +24,6 @@ This illsutrates how the random number generator is good, but not perfect as sho
 thinkplot.Cdf(thinkstats2.Cdf(random, label='random'))
 thinkplot.Config(xlabel='Number', ylabel='CDF')
 ```
-![Graph of random.random CDF](https://github.com/jseemayer2/dsp/blob/master/lessons/statistics/images/Ch4-1_RandomPMF.png)
+![Graph of random.random CDF](https://github.com/jseemayer2/dsp/blob/master/lessons/statistics/images/Ch4-1_RandomCDF.png)
 
 This graphs also shows how the random number generator is good, but not perfect as shown by the slight deviations from the y=x line.
