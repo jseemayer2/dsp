@@ -11,7 +11,7 @@ thinkplot.Pmf(pmf)
 ```
 Which generates the following plot:
 
-INSERT GRAPH
+![Graph of Observed PMF](https://github.com/jseemayer2/dsp/blob/master/lessons/statistics/images/Ch3-1_ObservedPMF.png)
 
 This PMF shows that most respondent's had no kids, which would have biased our results in the following way had the survey been taken from the children's perspective:
 
@@ -36,7 +36,7 @@ thinkplot.Config(xlabel='Kids per Household', ylabel='PMF')
 
 Generating the following plot:
 
-INSERT GRAPH
+![Graph of Observed v Biased PMF](https://github.com/jseemayer2/dsp/blob/master/lessons/statistics/images/Ch3-1_ObservedvBiasedPMF.png)
 
 Using these 2 different data sets yields the following means:
 
